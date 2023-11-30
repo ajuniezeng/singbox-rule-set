@@ -19,7 +19,8 @@
         ".chatgpt.com",
         ".oaistatic.com",
         ".oaiusercontent.com",
-        ".openai.com"
+        ".openai.com",
+        ".auth0.com"
       ]
     }
   ]
