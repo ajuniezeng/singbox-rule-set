@@ -36,6 +36,7 @@ $geositeDomains = @(
   "bilibili",
   "category-ads-all",
   "category-games",
+  "category-games@cn",
   "cn",
   "discord",
   "disney",
@@ -59,7 +60,8 @@ $geositeDomains = @(
   "tld-!cn",
   "twitch",
   "hbo",
-  "twitter"
+  "twitter",
+  "youtube"
 )
 
 # export the souce rule-set
@@ -74,7 +76,7 @@ foreach ($item in $geositeDomains) {
 }
 
 # complile rule-set
-$ruleSet = Get-ChildItem -Path .\ -Filter *.json -Recurse
+$ruleSet = Get-ChildItem -Path .\ -Filter *.json
 
 # make directory for binary files
 foreach ($item in $ruleSet) {
@@ -85,7 +87,7 @@ foreach ($item in $ruleSet) {
 # Move .srs files to bin directory
 
 New-Item -ItemType Directory -Force -Path .\bin
-$srsFiles = Get-ChildItem -Path .\ -Filter *.srs -Recurse
+$srsFiles = Get-ChildItem -Path .\ -Filter *.srs
 
 foreach ($item in $srsFiles) {
   Write-Host "move $item to bin"
@@ -94,9 +96,8 @@ foreach ($item in $srsFiles) {
 
 # move the source rule-set to rule-set directory
 New-Item -ItemType Directory -Force -Path .\rule-set
-$jsonFiles = Get-ChildItem -Path .\ -Filter *.json -Recurse
 
-foreach ($item in $jsonFiles) {
+foreach ($item in $ruleSet) {
   Write-Host "move rule-set source $item to rule-set"
   Move-Item -Path $item -Destination .\rule-set -Force
 }
