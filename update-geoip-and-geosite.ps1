@@ -102,3 +102,6 @@ foreach ($item in $ruleSet) {
   Move-Item -Path $item -Destination .\rule-set -Force
 }
 
+git add .
+git commit -m "daily update"
+git push
