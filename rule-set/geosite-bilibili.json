@@ -5,6 +5,7 @@
       "domain": [
         "manga.bilibili.com",
         "upos-hz-mirrorakam.akamaized.net",
+        "bilicomic.com",
         "bilicomics.com",
         "acg.tv",
         "acgvideo.com",
@@ -54,6 +55,7 @@
         "biligame.net"
       ],
       "domain_suffix": [
+        ".bilicomic.com",
         ".bilicomics.com",
         ".acg.tv",
         ".acgvideo.com",
