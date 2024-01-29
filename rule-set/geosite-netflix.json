@@ -52,6 +52,8 @@
         ".netflixdnstest10.com"
       ],
       "domain_regex": [
+        "(^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
+        "(^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$",
         "(^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
         "(^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$"
       ]
