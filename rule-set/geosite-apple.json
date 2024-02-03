@@ -1696,6 +1696,11 @@
         "www.apple.com",
         "xp.apple.com",
         "testflight.apple.com",
+        "certs-lb.apple.com.akadns.net",
+        "certs.apple.com",
+        "crl-lb.apple.com.akadns.net",
+        "crl.apple.com",
+        "ocsp2-lb.apple.com.akadns.net",
         "beats1.cn",
         "beats1.com.cn",
         "beats2.com.cn",
@@ -1719,12 +1724,7 @@
         "iad.apple.com",
         "qwapi.com",
         "researchkit.cn",
-        "researchkit.com.cn",
-        "certs-lb.apple.com.akadns.net",
-        "certs.apple.com",
-        "crl-lb.apple.com.akadns.net",
-        "crl.apple.com",
-        "ocsp2-lb.apple.com.akadns.net"
+        "researchkit.com.cn"
       ],
       "domain_suffix": [
         ".apple",
