@@ -397,7 +397,18 @@
         "facebookwork.com",
         "redkix.com",
         "workplace.com",
-        "workplaceusecases.com"
+        "workplaceusecases.com",
+        "b-graph.facebook.com",
+        "b-graph-fallback.facebook.com",
+        "star.fallback.c10r.facebook.com",
+        "star.c10r.facebook.com",
+        "connect.facebook.com",
+        "connect.facebook.net",
+        "graph.facebook.com",
+        "graph-fallback.facebook.com",
+        "z-m-graph.facebook.com",
+        "graph.fbpigeon.com",
+        "mqtt-mini.facebook.com"
       ],
       "domain_suffix": [
         ".aboutfacebook.com",
@@ -793,7 +804,18 @@
         ".facebookwork.com",
         ".redkix.com",
         ".workplace.com",
-        ".workplaceusecases.com"
+        ".workplaceusecases.com",
+        ".b-graph.facebook.com",
+        ".b-graph-fallback.facebook.com",
+        ".star.fallback.c10r.facebook.com",
+        ".star.c10r.facebook.com",
+        ".connect.facebook.com",
+        ".connect.facebook.net",
+        ".graph.facebook.com",
+        ".graph-fallback.facebook.com",
+        ".z-m-graph.facebook.com",
+        ".graph.fbpigeon.com",
+        ".mqtt-mini.facebook.com"
       ]
     }
   ]

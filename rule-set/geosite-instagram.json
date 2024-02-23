@@ -74,7 +74,9 @@
         "online-instagram.com",
         "onlineinstagram.com",
         "web-instagram.net",
-        "wwwinstagram.com"
+        "wwwinstagram.com",
+        "graph.instagram.com",
+        "graph-fallback.instagram.com"
       ],
       "domain_suffix": [
         ".achat-followers-instagram.com",
@@ -148,7 +150,9 @@
         ".online-instagram.com",
         ".onlineinstagram.com",
         ".web-instagram.net",
-        ".wwwinstagram.com"
+        ".wwwinstagram.com",
+        ".graph.instagram.com",
+        ".graph-fallback.instagram.com"
       ]
     }
   ]
