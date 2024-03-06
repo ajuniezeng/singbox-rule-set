@@ -60,7 +60,8 @@ $geositeDomains = @(
   "hbo",
   "twitter",
   "youtube",
-  "threads"
+  "threads",
+  "nvidia"
 )
 
 # export the souce rule-set
