@@ -20,7 +20,8 @@
         ".oaistatic.com",
         ".oaiusercontent.com",
         ".openai.com"
-      ]
+      ],
+      "domain_regex": "chatgpt-async-webps-prod-eastus-\\d+\\.webpubsub\\.azure\\.com$"
     }
   ]
 }
