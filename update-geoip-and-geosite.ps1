@@ -17,6 +17,10 @@ if (Test-Path $geoipDataFilePath) {
     Invoke-WebRequest -Uri $geoipDataBaseUrl -OutFile $geoipDataFilePath
     Invoke-WebRequest -Uri $geositeDataBaseUrl -OutFile $geositeDataFilePath
   }
+} else {
+  Write-Host "geoip database not exist, download now"
+  Invoke-WebRequest -Uri $geoipDataBaseUrl -OutFile $geoipDataFilePath
+  Invoke-WebRequest -Uri $geositeDataBaseUrl -OutFile $geositeDataFilePath
 }
 
 # extract rules
