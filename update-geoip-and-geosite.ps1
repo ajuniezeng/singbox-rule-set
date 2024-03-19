@@ -65,7 +65,8 @@ $geositeDomains = @(
   "twitter",
   "youtube",
   "threads",
-  "nvidia"
+  "nvidia",
+  "category-httpdns"
 )
 
 # export the souce rule-set
