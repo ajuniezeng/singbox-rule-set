@@ -18,6 +18,6 @@ jobs:
           fetch-depth: 0
 
       - name: build
-        run: ./workflow/build.sh
+        run: ./github/build.sh
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
