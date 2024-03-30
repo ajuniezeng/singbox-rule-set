@@ -2,9 +2,6 @@
 
 set -e -o pipefail
 
-# set up the environment
-sudo apt-get update
-
 VERSION=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest \
     | grep tag_name \
     | cut -d ":" -f2 \
