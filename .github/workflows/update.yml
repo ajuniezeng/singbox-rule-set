@@ -13,44 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Download
-        run: | 
-          VERSION=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest \
-          | grep tag_name \
-          | cut -d ":" -f2 \
-          | sed 's/\"//g;s/\,//g;s/\ //g;s/v//')
-          curl -Lo sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${VERSION}/sing-box-${VERSION}-linux-amd64.tar.gz"
-          curl -Lo geoip.db "https://github.com/lyc8503/sing-box-rules/releases/latest/download/geoip.db"
-          curl -Lo geosite.db "https://github.com/lyc8503/sing-box-rules/releases/latest/download/geosite.db"
-          tar -xzvf sing-box.tar.gz
-          mv ./sing-box-${VERSION}-linux-amd64/sing-box .
-          chmod +x sing-box
-
-      - name: Run
-        run: |
-          geoipAddresses=("cn" "de" "facebook" "google" "netflix" "telegram" "twitter")
-          geositeDomains=("amazon" "apple" "bilibili" "category-ads-all" "category-games" "cn" "discord" "disney" "facebook" "geolocation-!cn" "github" "google" "instagram" "microsoft" "netflix" "onedrive" "openai" "primevideo" "telegram" "tiktok" "tld-!cn" "twitch" "hbo" "twitter" "youtube" "threads" "nvidia" "category-httpdns")
-
-          for item in "${geoipAddresses[@]}"; do
-              echo "Exporting geoip: $item"
-              ./sing-box geoip export "$item"
-          done
-
-          for item in "${geositeDomains[@]}"; do
-              echo "Exporting geosite: $item"
-              ./sing-box geosite export "$item"
-          done
-
-          mkdir -p bin rule-set
-          for item in *.json; do
-              ./sing-box rule-set compile "$item"
-              mv "${item%.json}.srs" bin/
-              mv "$item" rule-set/
-          done
+      - name: Build
+        run: .github/build.sh
 
       - name: Release
         run: .github/release-rule-set.sh
