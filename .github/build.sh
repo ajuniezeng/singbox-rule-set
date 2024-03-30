@@ -26,7 +26,6 @@ for item in "${geositeDomains[@]}"; do
     ./sing-box geosite export "$item"
 done
 
-mkdir -p bin rule-set
 for item in *.json; do
     ./sing-box rule-set compile "$item"
     mv "${item%.json}.srs" bin/
