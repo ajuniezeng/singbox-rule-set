@@ -170,8 +170,6 @@
         "z.cn",
         "images-cn.ssl-images-amazon.com",
         "images-cn-8.ssl-images-amazon.com",
-        "amazon-adsystem.com",
-        "serving-sys.com",
         "a2z.org.cn",
         "amazonaws.cn",
         "amazonaws.com.cn",
@@ -197,7 +195,9 @@
         "kindleoasis.cn",
         "kindleoasis.com.cn",
         "amazonprimevideo.cn",
-        "amazonprimevideo.com.cn"
+        "amazonprimevideo.com.cn",
+        "amazon-adsystem.com",
+        "serving-sys.com"
       ],
       "domain_suffix": [
         ".amazon",
@@ -373,8 +373,6 @@
         ".primeday.com.cn",
         ".yamaxun.cn",
         ".z.cn",
-        ".amazon-adsystem.com",
-        ".serving-sys.com",
         ".a2z.org.cn",
         ".amazonaws.cn",
         ".amazonaws.com.cn",
@@ -400,7 +398,9 @@
         ".kindleoasis.cn",
         ".kindleoasis.com.cn",
         ".amazonprimevideo.cn",
-        ".amazonprimevideo.com.cn"
+        ".amazonprimevideo.com.cn",
+        ".amazon-adsystem.com",
+        ".serving-sys.com"
       ],
       "domain_regex": [
         ".+\\.awsdns-[0-9][0-9]\\.(co\\.uk|com|net|org)$",
