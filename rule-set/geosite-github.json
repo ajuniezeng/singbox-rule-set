@@ -57,7 +57,7 @@
         ".npmjs.com",
         ".blob.core.windows.net"
       ],
-      "domain_regex": "github-production-release-asset-[0-9a-zA-Z]{6}\\.s3\\.amazonaws\\.com"
+      "domain_regex": "^github-production-release-asset-[0-9a-zA-Z]{6}\\.s3\\.amazonaws\\.com$"
     }
   ]
 }
