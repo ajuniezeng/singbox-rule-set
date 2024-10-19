@@ -1730,10 +1730,6 @@
         "www.apple.com.edgekey.net",
         "www.apple.com.edgekey.net.globalredir.akadns.net",
         "xp.apple.com",
-        "api-adservices.apple.com",
-        "iadsdk.apple.com",
-        "iad.apple.com",
-        "qwapi.com",
         "researchkit.cn",
         "researchkit.com.cn",
         "swiftui.cn",
@@ -1759,7 +1755,11 @@
         "itunes-apple.cn",
         "itunesapple.cn",
         "itunesradio.cn",
-        "itunesradio.com.cn"
+        "itunesradio.com.cn",
+        "api-adservices.apple.com",
+        "iadsdk.apple.com",
+        "iad.apple.com",
+        "qwapi.com"
       ],
       "domain_suffix": [
         ".apple",
@@ -3268,10 +3268,6 @@
         ".xn--czrs0t4phtr3a.cn",
         ".xn--fiqs8sxootzz.cn",
         ".xn--ohq11k7pl25iyo8a.cn",
-        ".api-adservices.apple.com",
-        ".iadsdk.apple.com",
-        ".iad.apple.com",
-        ".qwapi.com",
         ".researchkit.cn",
         ".researchkit.com.cn",
         ".swiftui.cn",
@@ -3293,7 +3289,11 @@
         ".itunes-apple.cn",
         ".itunesapple.cn",
         ".itunesradio.cn",
-        ".itunesradio.com.cn"
+        ".itunesradio.com.cn",
+        ".api-adservices.apple.com",
+        ".iadsdk.apple.com",
+        ".iad.apple.com",
+        ".qwapi.com"
       ],
       "domain_regex": [
         "^a[1-5]\\.mzstatic\\.com$",
