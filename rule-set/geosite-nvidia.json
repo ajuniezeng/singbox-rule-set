@@ -63,7 +63,8 @@
         "geforce.com.tw",
         "geforce.cn",
         "gputechconf.cn",
-        "nvidia.cn"
+        "nvidia.cn",
+        "cn.download.nvidia.com"
       ],
       "domain_suffix": [
         ".nvidia.nl",
