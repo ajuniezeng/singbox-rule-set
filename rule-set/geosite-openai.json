@@ -9,6 +9,7 @@
         "production-openaicom-storage.azureedge.net",
         "ai.com",
         "chatgpt.com",
+        "chat.com",
         "oaistatic.com",
         "oaiusercontent.com",
         "openai.com",
@@ -19,6 +20,7 @@
       "domain_suffix": [
         ".ai.com",
         ".chatgpt.com",
+        ".chat.com",
         ".oaistatic.com",
         ".oaiusercontent.com",
         ".openai.com",
