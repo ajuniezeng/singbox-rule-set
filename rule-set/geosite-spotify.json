@@ -23,7 +23,8 @@
         "spotifycharts.com",
         "spotifycodes.com",
         "spotifyforbrands.com",
-        "spotifyjobs.com"
+        "spotifyjobs.com",
+        "spotify.link"
       ],
       "domain_suffix": [
         ".byspotify.com",
@@ -38,7 +39,8 @@
         ".spotifycharts.com",
         ".spotifycodes.com",
         ".spotifyforbrands.com",
-        ".spotifyjobs.com"
+        ".spotifyjobs.com",
+        ".spotify.link"
       ]
     }
   ]
