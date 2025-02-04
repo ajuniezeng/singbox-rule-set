@@ -1733,6 +1733,10 @@
         "www.apple.com.edgekey.net",
         "www.apple.com.edgekey.net.globalredir.akadns.net",
         "xp.apple.com",
+        "certs-lb.apple.com.akadns.net",
+        "certs.apple.com",
+        "crl-lb.apple.com.akadns.net",
+        "crl.apple.com",
         "beats1.cn",
         "beats1.com.cn",
         "beats2.com.cn",
@@ -1758,11 +1762,7 @@
         "iad.apple.com",
         "qwapi.com",
         "researchkit.cn",
-        "researchkit.com.cn",
-        "certs-lb.apple.com.akadns.net",
-        "certs.apple.com",
-        "crl-lb.apple.com.akadns.net",
-        "crl.apple.com"
+        "researchkit.com.cn"
       ],
       "domain_suffix": [
         ".apple",
