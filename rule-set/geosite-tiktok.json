@@ -13,12 +13,15 @@
         "tiktokcdn.com",
         "tiktokd.net",
         "tiktokd.org",
+        "tiktokeu-cdn.com",
+        "tiktokrow-cdn.com",
         "tiktokv.com",
         "tiktokv.eu",
         "tiktokv.us",
         "tiktokw.eu",
         "tiktokw.us",
         "ttlivecdn.com",
+        "ttoverseaus.net",
         "ttwstatic.com",
         "p16-tiktokcdn-com.akamaized.net"
       ],
@@ -33,12 +36,15 @@
         ".tiktokcdn.com",
         ".tiktokd.net",
         ".tiktokd.org",
+        ".tiktokeu-cdn.com",
+        ".tiktokrow-cdn.com",
         ".tiktokv.com",
         ".tiktokv.eu",
         ".tiktokv.us",
         ".tiktokw.eu",
         ".tiktokw.us",
         ".ttlivecdn.com",
+        ".ttoverseaus.net",
         ".ttwstatic.com"
       ]
     }
