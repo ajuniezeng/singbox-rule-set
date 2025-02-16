@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain": [
-        "ads-twitter.com",
-        "cms-twdigitalassets.com",
+        "twtrdns.net",
+        "twvid.com",
         "periscope.tv",
         "pscp.tv",
         "t.co",
@@ -13,23 +13,24 @@
         "twimg.com",
         "twitpic.com",
         "twitter.biz",
-        "twitter.com",
-        "twitter.jp",
-        "twittercommunity.com",
+        "x.com",
+        "cms-twdigitalassets.com",
         "twitterflightschool.com",
+        "twittercommunity.com",
+        "twitter.com",
         "twitterinc.com",
         "twitteroauth.com",
         "twitterstat.us",
-        "twtrdns.net",
+        "ads-twitter.com",
         "twttr.com",
         "twttr.net",
-        "twvid.com",
+        "twitter.jp",
         "vine.co",
-        "x.com"
+        "twitter.map.fastly.net"
       ],
       "domain_suffix": [
-        ".ads-twitter.com",
-        ".cms-twdigitalassets.com",
+        ".twtrdns.net",
+        ".twvid.com",
         ".periscope.tv",
         ".pscp.tv",
         ".t.co",
@@ -38,19 +39,20 @@
         ".twimg.com",
         ".twitpic.com",
         ".twitter.biz",
-        ".twitter.com",
-        ".twitter.jp",
-        ".twittercommunity.com",
+        ".x.com",
+        ".cms-twdigitalassets.com",
         ".twitterflightschool.com",
+        ".twittercommunity.com",
+        ".twitter.com",
         ".twitterinc.com",
         ".twitteroauth.com",
         ".twitterstat.us",
-        ".twtrdns.net",
+        ".ads-twitter.com",
         ".twttr.com",
         ".twttr.net",
-        ".twvid.com",
+        ".twitter.jp",
         ".vine.co",
-        ".x.com"
+        ".twitter.map.fastly.net"
       ]
     }
   ]
