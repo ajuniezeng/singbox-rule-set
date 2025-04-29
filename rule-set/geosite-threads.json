@@ -2,8 +2,14 @@
   "version": 2,
   "rules": [
     {
-      "domain": "threads.net",
-      "domain_suffix": ".threads.net"
+      "domain": [
+        "threads.com",
+        "threads.net"
+      ],
+      "domain_suffix": [
+        ".threads.com",
+        ".threads.net"
+      ]
     }
   ]
 }
