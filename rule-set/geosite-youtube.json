@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain": [
+        "yt3.googleusercontent.com",
         "youtube.ru",
         "youtube.az",
         "ytimg.com",
