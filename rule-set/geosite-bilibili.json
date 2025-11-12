@@ -30,6 +30,12 @@
         "biligo.com",
         "im9.com",
         "yo9.com",
+        "bilibiligame.cn",
+        "bilibiligame.co",
+        "bilibiligame.net",
+        "biligame.co",
+        "biligame.com",
+        "biligame.net",
         "bilicdn1.com",
         "bilicdn2.com",
         "bilicdn3.com",
@@ -46,13 +52,7 @@
         "bilibili.tv",
         "biliintl.com",
         "dreamcast.hk",
-        "upos-hz-mirrorakam.akamaized.net",
-        "bilibiligame.cn",
-        "bilibiligame.co",
-        "bilibiligame.net",
-        "biligame.co",
-        "biligame.com",
-        "biligame.net"
+        "upos-hz-mirrorakam.akamaized.net"
       ],
       "domain_suffix": [
         ".bilicomic.com",
@@ -81,6 +81,12 @@
         ".biligo.com",
         ".im9.com",
         ".yo9.com",
+        ".bilibiligame.cn",
+        ".bilibiligame.co",
+        ".bilibiligame.net",
+        ".biligame.co",
+        ".biligame.com",
+        ".biligame.net",
         ".bilicdn1.com",
         ".bilicdn2.com",
         ".bilicdn3.com",
@@ -96,13 +102,7 @@
         ".mincdn.com",
         ".bilibili.tv",
         ".biliintl.com",
-        ".dreamcast.hk",
-        ".bilibiligame.cn",
-        ".bilibiligame.co",
-        ".bilibiligame.net",
-        ".biligame.co",
-        ".biligame.com",
-        ".biligame.net"
+        ".dreamcast.hk"
       ]
     }
   ]
