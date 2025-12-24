@@ -28,6 +28,11 @@
         "ttlivecdn.com",
         "ttoverseaus.net",
         "ttwstatic.com",
+        "tiktokcdn-us.com.edgesuite.net",
+        "tiktokcdn.com.akamaized.net",
+        "tiktokcdn.com.edgesuite.net",
+        "tiktokv.com.edgekey.net",
+        "tiktokv.com.edgesuite.net",
         "p16-tiktokcdn-com.akamaized.net",
         "roovza-launches.appsflyersdk.com",
         "roovza.inapps.appsflyersdk.com",
@@ -59,7 +64,12 @@
         ".tiktokw.us",
         ".ttlivecdn.com",
         ".ttoverseaus.net",
-        ".ttwstatic.com"
+        ".ttwstatic.com",
+        ".tiktokcdn-us.com.edgesuite.net",
+        ".tiktokcdn.com.akamaized.net",
+        ".tiktokcdn.com.edgesuite.net",
+        ".tiktokv.com.edgekey.net",
+        ".tiktokv.com.edgesuite.net"
       ]
     }
   ]
