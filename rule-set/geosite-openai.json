@@ -5,10 +5,12 @@
       "domain": [
         "openaiapi-site.azureedge.net",
         "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+        "openaicom.imgix.net",
         "openaicomproductionae4b.blob.core.windows.net",
         "production-openaicom-storage.azureedge.net",
-        "chatgpt.com",
         "chat.com",
+        "chatgpt.com",
+        "crixet.com",
         "oaistatic.com",
         "oaiusercontent.com",
         "openai.com",
@@ -18,12 +20,12 @@
         "turn.livekit.cloud",
         "openai.com.cdn.cloudflare.net",
         "o33249.ingest.sentry.io",
-        "openaicom.imgix.net",
         "browser-intake-datadoghq.com"
       ],
       "domain_suffix": [
-        ".chatgpt.com",
         ".chat.com",
+        ".chatgpt.com",
+        ".crixet.com",
         ".oaistatic.com",
         ".oaiusercontent.com",
         ".openai.com",
