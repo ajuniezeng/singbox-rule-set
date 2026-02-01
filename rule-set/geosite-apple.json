@@ -1741,11 +1741,6 @@
         "www.apple.com",
         "www.apple.com.edgekey.net.globalredir.akadns.net",
         "xp.apple.com",
-        "advertising.apple.com",
-        "api-adservices.apple.com",
-        "iadsdk.apple.com",
-        "iad.apple.com",
-        "qwapi.com",
         "researchkit.cn",
         "researchkit.com.cn",
         "swiftui.cn",
@@ -1777,7 +1772,12 @@
         "itunes-apple.cn",
         "itunesapple.cn",
         "itunesradio.cn",
-        "itunesradio.com.cn"
+        "itunesradio.com.cn",
+        "advertising.apple.com",
+        "api-adservices.apple.com",
+        "iadsdk.apple.com",
+        "iad.apple.com",
+        "qwapi.com"
       ],
       "domain_suffix": [
         ".apple",
@@ -3288,11 +3288,6 @@
         ".xn--czrs0t4phtr3a.cn",
         ".xn--fiqs8sxootzz.cn",
         ".xn--ohq11k7pl25iyo8a.cn",
-        ".advertising.apple.com",
-        ".api-adservices.apple.com",
-        ".iadsdk.apple.com",
-        ".iad.apple.com",
-        ".qwapi.com",
         ".researchkit.cn",
         ".researchkit.com.cn",
         ".swiftui.cn",
@@ -3314,7 +3309,12 @@
         ".itunes-apple.cn",
         ".itunesapple.cn",
         ".itunesradio.cn",
-        ".itunesradio.com.cn"
+        ".itunesradio.com.cn",
+        ".advertising.apple.com",
+        ".api-adservices.apple.com",
+        ".iadsdk.apple.com",
+        ".iad.apple.com",
+        ".qwapi.com"
       ]
     }
   ]
