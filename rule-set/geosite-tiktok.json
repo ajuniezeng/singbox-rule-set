@@ -37,7 +37,8 @@
         "roovza-launches.appsflyersdk.com",
         "roovza.inapps.appsflyersdk.com",
         "roovza.launches.appsflyersdk.com",
-        "roovza.skadsdk.appsflyersdk.com"
+        "roovza.skadsdk.appsflyersdk.com",
+        "analytics.tiktok.com"
       ],
       "domain_suffix": [
         ".bytedapm.com",
@@ -69,7 +70,8 @@
         ".tiktokcdn.com.akamaized.net",
         ".tiktokcdn.com.edgesuite.net",
         ".tiktokv.com.edgekey.net",
-        ".tiktokv.com.edgesuite.net"
+        ".tiktokv.com.edgesuite.net",
+        ".analytics.tiktok.com"
       ]
     }
   ]

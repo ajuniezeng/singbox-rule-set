@@ -25,7 +25,10 @@
         "spotifyforbrands.com",
         "spotifyjobs.com",
         "spotify.link",
-        "tospotify.com"
+        "tospotify.com",
+        "adeventtracker.spotify.com",
+        "adstudio-assets.scdn.co",
+        "bloodhound.spotify.com"
       ],
       "domain_suffix": [
         ".byspotify.com",

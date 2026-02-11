@@ -178,7 +178,8 @@
         "youtube.co.ae",
         "youtube-ui.l.google.com",
         "wide-youtube.l.google.com",
-        "ggpht.cn"
+        "ggpht.cn",
+        "ads.youtube.com"
       ],
       "domain_suffix": [
         ".youtube",
@@ -356,7 +357,8 @@
         ".youtube.co.ae",
         ".youtube-ui.l.google.com",
         ".wide-youtube.l.google.com",
-        ".ggpht.cn"
+        ".ggpht.cn",
+        ".ads.youtube.com"
       ]
     }
   ]
