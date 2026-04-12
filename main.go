@@ -441,7 +441,7 @@ func release(source string, destination string, ruleSetOutput string, ruleSetOut
 	if err != nil {
 		log.Warn("missing destination latest release")
 	} else {
-		if os.Getenv("NO_SKIP") != "true" && strings.Contains(*destinationRelease.Name, *sourceRelease.Name) {
+		if os.Getenv("NO_SKIP") != "true" && destinationRelease.GetTagName() == sourceRelease.GetTagName() {
 			log.Info("already latest")
 			setActionOutput("skip", "true")
 			return nil
@@ -451,7 +451,7 @@ func release(source string, destination string, ruleSetOutput string, ruleSetOut
 	if err != nil {
 		return err
 	}
-	setActionOutput("tag", *sourceRelease.Name)
+	setActionOutput("tag", sourceRelease.GetTagName())
 	return nil
 }
 
