@@ -1,2 +1,5 @@
-*.db
-*.exe
+/.idea/
+/vendor/
+**.db
+/rule-set/
+/rule-set-unstable/
