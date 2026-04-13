@@ -3,7 +3,7 @@ This repository consumes `geoip.dat` and `geosite.dat` from the latest release o
 artifacts.
 
 Upstream project:
-- Repository: <https://github.com/Loyalsoldier/v2ray-rules-dat>
+- Repository: <https://github.com/Loyalsoldier/v2ray-rules-dat> and <https://github.com/SagerNet/sing-geosite>
 - Release assets used here: `geoip.dat`, `geosite.dat`
 - Upstream license: GNU General Public License v3.0
 
